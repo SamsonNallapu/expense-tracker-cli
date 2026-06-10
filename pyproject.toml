@@ -1,0 +1,9 @@
+[project]
+name = "expense-tracker-cli"
+version = "0.1.0"
+description = "CLI Expense Tracker"
+requires-python = ">=3.9"
+dependencies = ["typer", "rich", "sqlalchemy", "python-dateutil"]
+
+[project.scripts]
+expense = "expense_tracker.cli:app"
